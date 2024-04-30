@@ -16,6 +16,26 @@ function animation2() {
     });
 }
 
+
+
+let i = 180;
+
+function changeBackground() {
+  if (i < 540) {
+    document.body.style.backgroundImage = `linear-gradient(${i}deg, black, grey, black)`;
+    i++;
+    setTimeout(changeBackground, 10);
+  }
+  if(i == 540){
+    i = 180;
+  }
+}
+
+changeBackground();
+
+
+
+
 let intro = document.getElementsByClassName("intro")[0];
 let hobbies = document.getElementsByClassName("hobbies")[0];
 let sop = document.getElementsByClassName("sop")[0];
