@@ -1,0 +1,5 @@
+b) In Django, a view is a Python function or class that receives an HTTP request and returns an HTTP response. 
+Views contain the business logic of the application and are responsible for processing data, interacting with the database, and rendering templates. 
+On the other hand, a template is an HTML file that defines the structure and layout of the final web page. Templates are typically used within 
+views to dynamically generate HTML content by combining static HTML with data passed from the view. In essence, views handle the application logic,
+while templates handle the presentation layer by defining how the data should be displayed to the user.
