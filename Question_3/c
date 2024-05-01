@@ -1,0 +1,6 @@
+Flutter offers three main build modes:
+
+1. Debug Mode: This mode is used during development. It enables features like hot reload, which allows developers to quickly see changes made to their code without restarting the app. Debug mode also includes additional debugging information and tools to help developers identify and fix issues during development.
+2. Profile Mode: Profile mode is used for performance profiling and optimizing the app. It provides performance metrics and diagnostics to help developers identify performance bottlenecks and optimize their code. Profile mode is typically used to ensure that the app runs smoothly and efficiently on various devices and platforms.
+3. Release Mode: Release mode is used when building the final version of the app for distribution. It optimizes the app for performance and size, removing debugging information and other development-related features to produce a smaller, faster, and more efficient app. 
+   Release mode is used for publishing the app to app stores or distributing it to users.
