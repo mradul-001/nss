@@ -1,0 +1,6 @@
+Stateless widgets in Flutter are essentially static components. Once they are built, their properties cannot change. They are ideal for displaying content that remains constant throughout the widget's lifecycle. Stateless widgets are useful for presenting information that doesn't need to change dynamically based on user input or other factors. 
+Examples include text labels, icons, and static images.
+On the other hand, stateful widgets in Flutter are dynamic components that can hold internal state. 
+They have a corresponding State object that manages the widget's state and handles updates. 
+Stateful widgets are crucial for building interactive UI elements that respond to user input, data changes, or other events. 
+Examples of stateful widgets include buttons, forms, sliders, and progress indicators.
