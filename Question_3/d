@@ -1,0 +1,3 @@
+In Dart, private variables can be created by prefixing their names with an underscore (`_`). These variables are accessible only within the library or class in which they are declared, ensuring encapsulation and data integrity. 
+  By using private variables, developers can restrict direct access to internal implementation details, promoting better code organization and maintenance. 
+Access to private variables from outside the defining class or library is prevented, thereby enhancing code security and reducing the likelihood of unintended modifications or dependencies on internal implementations.
