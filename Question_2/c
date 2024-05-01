@@ -1,0 +1,5 @@
+In Django, a model is a Python class that represents a database table. Models define the structure and behavior of data within the application and are used to interact with the database.
+Each model class corresponds to a table in the database, and attributes of the class represent fields in the table. Models also define relationships between different pieces of data, 
+such as one-to-many or many-to-many relationships. Models are typically defined in the `models.py` file of a Django application and are used to create, retrieve, update, and delete data 
+  in the database using Django's ORM (Object-Relational Mapping) system. By using models, developers can work with database tables using Python code rather than writing raw SQL queries, 
+  making it easier to manage and maintain the application's data layer.
