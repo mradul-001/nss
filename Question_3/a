@@ -1,0 +1,9 @@
+Advantages:
+1. Single Codebase: Flutter allows you to write code once and deploy it on multiple platforms like iOS, Android, web, and desktop, reducing development time and effort.
+2. Fast Development: Flutter's hot reload feature enables real-time code changes, speeding up the development process and allowing for quick iterations.
+3. Beautiful UI: Flutter offers a rich set of customizable UI widgets and provides pixel-perfect designs across different platforms, resulting in visually appealing and consistent user interfaces.
+
+Disadvantages:
+1. Large App Size: Flutter apps tend to have larger file sizes compared to native apps because they include a Flutter engine, which can impact download and installation times.
+2. Limited Native Functionality**: While Flutter provides access to a wide range of platform-specific features through plugins, it may not offer the same depth of native functionality as native development languages like Swift or Java/Kotlin.
+3. Learning Curve: Flutter requires developers to learn Dart, which may be unfamiliar to some developers, and mastering Flutter's concepts and architecture may require time and effort, especially for those new to mobile development.
