@@ -24,7 +24,7 @@ let i = 180;
 
 function changeBackground() {
   if (i < 540) {
-    document.body.style.backgroundImage = `linear-gradient(${i}deg, rgba(0, 255, 255), rgba(0, 0, 255)`;
+    document.body.style.backgroundImage = `linear-gradient(${i}deg, #09203F, #537895`;
     i++;
     setTimeout(changeBackground, 10);
   }
@@ -42,15 +42,15 @@ let intro = document.getElementsByClassName("intro")[0];
 let hobbies = document.getElementsByClassName("hobbies")[0];
 let sop = document.getElementsByClassName("sop")[0];
 
-let currentSection = window.localStorage.getItem("currentSection");
+let currentSection = sessionStorage.getItem("currentSection");
 
 if (!currentSection) {
-  window.localStorage.setItem("currentSection", "intro");
+  sessionStorage.setItem("currentSection", "intro");
 }
 
 function displayCurrentSection() {
   
-  let currentSection = window.localStorage.getItem("currentSection");
+  let currentSection = sessionStorage.getItem("currentSection");
 
   if (currentSection == "intro") {
     intro.style.display = "flex";
@@ -82,7 +82,7 @@ document.getElementById("intro").addEventListener("click", () => {
   hobbies.style.display = "none";
   sop.style.display = "none";
   currentSection = 'intro';
-  window.localStorage.setItem("currentSection", currentSection);
+  sessionStorage.setItem("currentSection", currentSection);
   animation2();
 });
 
@@ -92,7 +92,7 @@ document.getElementById("hobbies").addEventListener("click", () => {
   else hobbies.style.display = "grid";
   sop.style.display = "none";
   currentSection = 'hobbies';
-  window.localStorage.setItem("currentSection", currentSection);
+  sessionStorage.setItem("currentSection", currentSection);
   animation2();
 });
 
@@ -101,7 +101,7 @@ document.getElementById("sop").addEventListener("click", () => {
   hobbies.style.display = "none";
   sop.style.display = "flex";
   currentSection = 'sop';
-  window.localStorage.setItem("currentSection", currentSection);
+  sessionStorage.setItem("currentSection", currentSection);
   animation2();
 });
 
